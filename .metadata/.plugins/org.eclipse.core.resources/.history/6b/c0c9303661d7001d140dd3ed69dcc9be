@@ -1,0 +1,7 @@
+package com.ust.ioc;
+//responsibility to validate whether username is present in database or not.
+public class Login {
+    private String userName;
+    private String password;
+    
+}

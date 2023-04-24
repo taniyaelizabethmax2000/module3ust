@@ -1,0 +1,9 @@
+server.port=8080
+
+#management.endpoints.web.exposure.include=health,info,beans
+management.endpoints.web.exposure.include=*
+#http://localhost:8080/actuator/beans on microsoft edge give this
+
+#http://localhost:8080/actuator/health
+#http://localhost:8080/actuator
+#http://localhost:8080/actuator/info
