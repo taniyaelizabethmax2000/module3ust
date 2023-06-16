@@ -1,0 +1,33 @@
+2023-04-24 12:02:35.529  INFO 984 --- [restartedMain] com.ust.rest.Firstrest1Application       : Starting Firstrest1Application using Java 16.0.2 on ad8d8f64971b5ec with PID 984 (D:\module3\mvc\firstrest1\target\classes started by Administrator in D:\module3\mvc\firstrest1)
+2023-04-24 12:02:35.533  INFO 984 --- [restartedMain] com.ust.rest.Firstrest1Application       : No active profile set, falling back to 1 default profile: "default"
+2023-04-24 12:02:35.621  INFO 984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 12:02:35.621  INFO 984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 12:02:37.185  INFO 984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24 12:02:37.204  INFO 984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24 12:02:37.204  INFO 984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-24 12:02:37.311  INFO 984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24 12:02:37.313  INFO 984 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1689 ms
+2023-04-24 12:02:37.968  INFO 984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24 12:02:38.036  INFO 984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-24 12:02:38.054  INFO 984 --- [restartedMain] com.ust.rest.Firstrest1Application       : Started Firstrest1Application in 3.232 seconds (JVM running for 4.665)
+2023-04-24 12:02:38.060  INFO 984 --- [restartedMain] com.ust.rest.Firstrest1Application       : Application Started successfully
+2023-04-24 12:02:38.060  WARN 984 --- [restartedMain] com.ust.rest.Firstrest1Application       : Application Started successfully
+2023-04-24 12:02:38.061 ERROR 984 --- [restartedMain] com.ust.rest.Firstrest1Application       : Make it count
+2023-04-24 12:04:15.343  INFO 984 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24 12:04:15.367  INFO 984 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24 12:04:15.538  INFO 984 --- [restartedMain] com.ust.rest.Firstrest1Application       : Starting Firstrest1Application using Java 16.0.2 on ad8d8f64971b5ec with PID 984 (D:\module3\mvc\firstrest1\target\classes started by Administrator in D:\module3\mvc\firstrest1)
+2023-04-24 12:04:15.539  INFO 984 --- [restartedMain] com.ust.rest.Firstrest1Application       : No active profile set, falling back to 1 default profile: "default"
+2023-04-24 12:04:15.892  INFO 984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24 12:04:15.893  INFO 984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24 12:04:15.894  INFO 984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-24 12:04:15.914  INFO 984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24 12:04:15.915  INFO 984 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 366 ms
+2023-04-24 12:04:16.068  INFO 984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24 12:04:16.088  INFO 984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-24 12:04:16.097  INFO 984 --- [restartedMain] com.ust.rest.Firstrest1Application       : Started Firstrest1Application in 0.614 seconds (JVM running for 102.707)
+2023-04-24 12:04:16.100  INFO 984 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24 12:04:16.101  INFO 984 --- [restartedMain] com.ust.rest.Firstrest1Application       : Application Started successfully
+2023-04-24 12:04:16.101  WARN 984 --- [restartedMain] com.ust.rest.Firstrest1Application       : Application Started successfully
+2023-04-24 12:04:16.101 ERROR 984 --- [restartedMain] com.ust.rest.Firstrest1Application       : Make it count
+2023-04-24 12:04:56.886  INFO 984 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24 12:04:56.899  INFO 984 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]

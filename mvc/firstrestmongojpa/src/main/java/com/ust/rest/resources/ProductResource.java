@@ -53,8 +53,7 @@ public class ProductResource {
 	@RequestMapping(value="/create",consumes=MediaType.APPLICATION_JSON_VALUE,produces=MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<Product> addProduct(@RequestBody Product product){
 	//boolean result=	service.add(product);
-		return new ResponseEntity<Product>
-		(service.add(product),HttpStatus.ACCEPTED);
+		return new ResponseEntity<Product>(service.add(product),HttpStatus.ACCEPTED);
 //	if(result) {
 //		return ResponseEntity.status(HttpStatus.CREATED).body(true);
 //	}else {
@@ -66,16 +65,16 @@ public class ProductResource {
 	  @PutMapping
 	  
 	  @RequestMapping(value="/update",consumes=MediaType.APPLICATION_JSON_VALUE,
-	  produces=MediaType.APPLICATION_JSON_VALUE) public Product
-	  updateProduct(@RequestBody Product product) { return
-	  service.updateProduct(product); }
+	  produces=MediaType.APPLICATION_JSON_VALUE)
+	  public Product updateProduct(@RequestBody Product product)
+	  { return  service.updateProduct(product); }
 	 
 	 
 	 
 	  @DeleteMapping
 	  
-	  @RequestMapping(value="delete/{productId}") public void
-	  deleteProduct(@PathVariable String productId) {
+	  @RequestMapping(value="delete/{productId}")
+	  public void deleteProduct(@PathVariable String productId) {
 	  service.deleteProduct(productId); }
 	
 }

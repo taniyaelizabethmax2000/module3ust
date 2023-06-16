@@ -33,7 +33,7 @@ public class ProductResource {
 		
 		  @GetMapping
 		  
-		  @RequestMapping("/retrieve/{productId}")
+	  @RequestMapping("/retrieve/{productId}")
 		 @ApiOperation(value="Returns the product entity")
 		 
 		  public Product  fetchProduct(@PathVariable long productId) { return
@@ -42,6 +42,8 @@ public class ProductResource {
 		  }
 		  
 			
+		  
+		  
 			  @GetMapping
 			  
 			  @RequestMapping("/retrieve/all")
@@ -82,6 +84,11 @@ public class ProductResource {
 		  return  service.updateProduct(product); }
 	 
 	 
+	  
+	  @GetMapping
+	  public String test() {
+		  return "test() called.....";//for product client project
+	  }
 	 
 	  @DeleteMapping
 	  

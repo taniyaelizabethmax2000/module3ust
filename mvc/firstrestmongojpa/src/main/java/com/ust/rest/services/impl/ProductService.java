@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.ust.rest.repository.ProductRepository;
@@ -34,6 +36,7 @@ public class ProductService  implements ProductServiceIface{
 	}
 	public  List<Product> getProducts(){
 		return repository.findAll();
+		//return ResponseEntity.status(HttpStatus.ACCEPTED).body(repository.findAll());
 	}
 	
 	  public Product updateProduct(Product product) { return
